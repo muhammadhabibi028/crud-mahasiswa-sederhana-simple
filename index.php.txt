@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    </style>
+
+    <title>Tambah</title>
+</head>
+<body>
+<div class="main">
+    <div class="content">
+        <div class="home">
+            <a href="index.php">Home</a>
+        </div>
+    <div class="tmb">
+        <h2> <b> TAMBAHKAN MAHASISWA </b> </h2>
+    </div>
+        <form action="insert.php" method="get">
+            <div class="form">
+                <label class="col-sm-2 col-form-label"><b>Nama</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nama">
+                </div>
+            </div>
+             <div class="form">
+                <label class="col-sm-2 col-form-label"><b>NPM</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+			<div class="form">
+                <label class="col-sm-2 col-form-label"><b>EMAIL</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+			<div class="form">
+                <label class="col-sm-2 col-form-label"><b>ALAMAT</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+			<div class="form">
+                <label class="col-sm-2 col-form-label"><b>JURUSAN</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+			<div class="form">
+                <label class="col-sm-2 col-form-label"><b>FAKULTAS</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+			<div class="form">
+                <label class="col-sm-2 col-form-label"><b>AGAMA</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+             <div class="form">
+                <label class="col-sm-2 col-form-label"><b>NO TELEPON</b></label>
+                <div class="col-sm-10">
+                    <input type="input" class="form-control" name="Nim">
+                </div>
+				
+            </div>
+            
+            
+            <div class="submit">                        
+                <input type="submit" name="Submit" class="btn btn-primary" value="Tambahkan"></input>
+            </div>
+        </form>
+    </div>
+    </div>   
+</body>
+</html>
